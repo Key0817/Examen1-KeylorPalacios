@@ -1,0 +1,287 @@
+/* Estilos al body en general */
+:root{
+  --bg1: #191D23;
+  --body: #527768;
+  --btn: #22e5c8;
+  --gray: #c7c5c9;
+  --verde: #5b7677;
+  --azul: #147ca4;
+  --white: #fff;
+  --font: "Geneva"
+}
+/* estilos al body */
+body{
+  font-family: var(--font);
+}
+
+.btnp{
+  background-color: var(--btn);
+  color: var(--white);
+  padding: .5rem;
+  margin: 3rem 0;
+  text-decoration: none;
+  text-align: center;
+  border-radius: .5rem;
+  width: 20rem;
+  height: 1rem;
+  font-weight: 700;
+}
+
+.btnp:hover{
+  color: var(--azul);
+}
+
+/* Estilos al nav */
+.navegacion{
+  height: 6rem;
+  background-color: var(--bg1);
+  border-bottom:1px solid var(--btn);
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+.navegacion .nav{
+  display: inline-flex;
+  justify-content: right;
+  align-items: center;
+  align-content: right;
+}
+
+.navegacion a{
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.navegacion a:hover{
+  color: var(--btn)
+}
+
+.navegacion a:last-child(){
+  margin-right: 0;
+}
+
+.navegacion .perfil img{
+  padding: .5rem;
+  height: 100%;
+  width: 100%;
+  object-position: center;
+}
+
+/* Estilos a la presentacion */
+.presentacion .main{
+  height: 40rem;
+  display: flex;
+  padding: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--btn);
+}
+
+.saludo{
+  margin-right: 1rem;
+}
+
+.saludo h1,h2{
+  color: var(--white);
+  font-weight: 700;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.saludo h1 span{
+  color: var(--btn);
+}
+.saludo p{
+  color: var(--white);
+  font-weight: 300;
+  font-size: 1.4rem;
+  margin-bottom: 3rem;  
+}
+.main{
+  align-content: center;
+}
+
+.foto img{
+  height: 100%;
+  width: 100%;
+} 
+
+/* Creacion de la seccion about me */
+.about{
+  margin: 3rem 0;
+  height: 35rem;
+  border-bottom:1px solid var(--btn);
+}
+
+.saludoAbout{
+  margin-left: 1rem;
+}
+
+.fotoAbout img{
+  padding: .5rem;
+  height: 80%;
+  width: 100%;
+  object-position: center;
+}
+
+.btn-about{
+  align-items: center;
+}
+
+/* Estilos a la seccion de skills */
+
+.skills{
+  margin-top: 3rem;
+  height: 40rem;
+  border-bottom: 1px solid var(--btn);
+}
+
+
+.intro p{
+  color: var(--white);
+}
+
+.list-skills ol{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.list-skills li{
+  background-color: var(--body);
+  border-radius: .5rem;
+  color: var(--white);
+  line-height: 3rem;
+  margin-bottom: .5rem;
+  padding-left: .8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+
+.list-skills ol span{
+  font-weight: 700;
+  color: var(--btn);
+}
+
+/* Dardole estilos al call to action */
+
+.action{
+  height: 20rem;
+  width: 100%;
+  background-color: var(--body);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callToAction{
+  text-align: center;
+  margin-top: 2rem;
+}
+.callToAction a{
+  width: 5rem;
+  height: 5rem;
+}
+
+.Paction{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.Paction span{
+  color: var(--btn);
+}
+
+.btnCall{
+  background-color: var(--bg1);
+  
+}
+
+.btnCall:hover{
+  color: var(--btn);
+}
+
+/* darle estilos al proyecto */
+.proyectos{
+  height: 40rem;
+}
+.proyecto{
+  color: var(--white)
+}
+
+.txt{
+  color: var(--white);
+}
+
+/* estilos para los proyectos */
+.seccionproj{
+  margin-top: 10rem;
+  height: 30rem;
+}
+
+.tarjeta{
+  margin-top: 4rem;
+  height: 10rem;
+}
+
+.projct{
+  margin-top: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--white);
+}
+
+.projct span{
+  color: var(--btn);
+}
+.carta{
+  padding-top: 2rem;
+  width: 4rem;
+  height: 6rem;
+  border-radius: 1rem;
+  background-color: var(--body);
+}
+.carta h3{
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.linkRepo{
+  text-decoration: none;
+  color: var(--white);
+}
+.linkRepo:hover{
+  cursor:pointer;
+  color:var(--azul)
+}
+
+/* darle estilos al footer */
+footer{
+  height: 6rem;
+  background-color: var(--bg1);
+  border-top: 1px solid var(--btn);
+}
+
+.navf{
+  color: var(--white);
+  font-weight: 300;
+  margin-top: 2rem;
+}
+
+.navf a{
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 1rem;
+  display: inline;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
