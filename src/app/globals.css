@@ -1,18 +1,20 @@
-/* Estilos al body en general */
+/* Estilos al body en general*/
 :root{
   --bg1: #191D23;
   --body: #527768;
   --btn: #22e5c8;
   --gray: #c7c5c9;
   --verde: #5b7677;
-  --azul: #147ca4;
+  --azul: #32464e;
   --white: #fff;
   --font: "Geneva"
-}
+} 
 /* estilos al body */
 body{
   font-family: var(--font);
 }
+
+
 
 .btnp{
   background-color: var(--btn);
@@ -69,6 +71,7 @@ body{
 }
 
 /* Estilos a la presentacion */
+
 .presentacion .main{
   height: 40rem;
   display: flex;
@@ -76,6 +79,7 @@ body{
   margin-top: 5rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid var(--btn);
+  text-align: center;
 }
 
 .saludo{
@@ -106,8 +110,11 @@ body{
 
 .foto img{
   height: 100%;
-  width: 100%;
+  width: 1000px;
+  margin-top: 15px;
+
 } 
+
 
 /* Creacion de la seccion about me */
 .about{
@@ -137,6 +144,11 @@ body{
   margin-top: 3rem;
   height: 40rem;
   border-bottom: 1px solid var(--btn);
+}
+
+
+.saludo {
+  text-align: center;
 }
 
 
@@ -222,7 +234,7 @@ body{
 /* estilos para los proyectos */
 .seccionproj{
   margin-top: 10rem;
-  height: 30rem;
+  height: 100%;
 }
 
 .tarjeta{
@@ -263,25 +275,44 @@ body{
   color:var(--azul)
 }
 
-/* darle estilos al footer */
-footer{
-  height: 6rem;
+
+footer {
+  height: 100%;
   background-color: var(--bg1);
   border-top: 1px solid var(--btn);
 }
 
-.navf{
+.navf {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
   color: var(--white);
   font-weight: 300;
   margin-top: 2rem;
 }
 
-.navf a{
+.links-container {
+  display: flex;
+  align-items: center; 
+}
+
+.navf a {
   color: var(--white);
   text-decoration: none;
   margin-right: 1rem;
-  display: inline;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+  display: inline-block;
+}
+
+.contact-container {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+.contact-container details {
+  position: static;
+}
+
+#LogoFoot {
+  margin-left: auto; 
 }

@@ -7,6 +7,7 @@ import About from "./about/page"
 import Skills from "./components/skills"
 import Call from "./components/call"
 import Nav from "./components/nav"
+import Footer from './components/footer';
 import Carousel from "./components/carousel"
 import { use, useEffect, useState } from 'react'
 type Repository = {
@@ -47,17 +48,9 @@ export default function Home() {
         <Carousel repos={repos} />
       </section>
 
-      <footer>
-        <div className='container footer'>
-          <nav className='d-block navf'>
-            <a href="#presentacion">Home</a>
-            <a href="#about">About Me</a>
-            <a href="#callaction">Contact</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-          </nav>
-        </div>
-      </footer>
+      <section id='Footercall'><Footer/></section>
+
+
     </div>
   );
 }

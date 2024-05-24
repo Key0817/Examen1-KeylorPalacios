@@ -4,6 +4,8 @@ export default function skills(){
             <div className="saludo intro col-lg-6">
                 <h1>My <span> Skills </span></h1>
                 <p>Learn more about my skills in which I excel more and have more knowledge</p>
+
+                <p>Also you can see my projects in next button</p>
             
                 <a className="btnp btn-about" href="#projects">See Projects</a>
             </div>
