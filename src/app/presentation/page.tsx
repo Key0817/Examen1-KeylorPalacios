@@ -16,7 +16,8 @@ export default function presentacion() {
                             Web designer specialized in Front-End located in Costa Rica. I offer the best jobs to help people
                         </p>
 
-                        <a className="btnp" href="https://www.linkedin.com/in/palacios-k/" target="_blank">
+                        <a className="btnp" href="mailto:keylorpalacios85@gmail.com?subject=Consultar%20servicio&body=Hola%20Keylor,
+                        %0AQuisiera%20saber%20m%C3%A1s%20sobre%20tus%20servicios" >
                             Let's work together!
                         </a>
 

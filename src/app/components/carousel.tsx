@@ -13,7 +13,7 @@ interface CarruselProps {
 const Carrusel = ({ repos }: CarruselProps) => {
     return (
         <section className='seccionproj'>
-            <h1 className='projct'>Pro<span>jects</span></h1>
+            <h1 className='projct'>My <span>Projects</span></h1>
             <Carousel>
                 {repos.map((repo) => (
                     <div key={repo.id}>
