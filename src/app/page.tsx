@@ -10,6 +10,7 @@ import Nav from "./components/nav"
 import Footer from './components/footer';
 import Carousel from "./components/carousel"
 import { use, useEffect, useState } from 'react'
+
 type Repository = {
   id: number;
   name: string;
@@ -17,6 +18,8 @@ type Repository = {
     avatar_url: string;
   }
 }
+
+
 async function getData(username: string): Promise<Repository[]> {
   const res = await fetch(`https://api.github.com/users/${username}/repos`);
   const data: Repository[] = await res.json();

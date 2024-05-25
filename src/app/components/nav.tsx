@@ -14,7 +14,9 @@ export default function navegacion(){
                     <a href="#presentacion">Home</a>
                     <a href="#about">About Me</a>
                     <a href="#skills">Skills</a>
+                    <a href="#callaction">Contact Me</a>
                     <a href="#projects">Projects</a>
+                    <a href="#Footercall">Go End</a>
                 </nav>
             </div>
 

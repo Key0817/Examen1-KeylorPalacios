@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function presentacion() {
     return (
-        <div className="presentacion container">
+        <div className="presentacion ">
 
             <main className="main d-flex">
 
